@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1rem;
+    background-color: #080808;
+    color: #e5e5e5;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.sidebar {
+    background-color: #080808;
+    text-align: center;
+    z-index: 1000;
+    -webkit-box-shadow: 4px 0 4px rgba(0, 0, 0, 0.4);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    4px 0 4px rgba(0, 0, 0, 0.4);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         4px 0 4px rgba(0, 0, 0, 0.4);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.photo {
+    background-image: url("../images/kealan's_instagram_photo.jpg");
+    padding-bottom: 52.5%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.playlist-art {
+    margin: 20px 0 20px 0;
+    border: 1px solid #e5e5e5;
+}
+#playlist-title {
+    margin: 10px 0;
+    text-align: left;
+}
+.audio-controls > .btn-default {
+    border: 1px solid #e5e5e5;
+    background-color: #080808;
+    margin: 10px 5px;
+}
+.audio-controls .glyphicon {
+    color: #e5e5e5;
+}
+.progress {
+    margin: 20px 0;
+}
+.current-song {
+    margin-top: 90%;
+    text-align: left;
+}
+.current-art {
+    max-width: 100px;
+    max-width: 100px;
+    border: 1px solid #e5e5e5;
+}
+.current-text {
+    vertical-align: bottom;
+}
+#current-artist {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        margin-bottom: -1000px;
+        padding-bottom: 1000px;
+        overflow: hidden;
+    }
+}
+@media (min-width: 1200px) {
+    .sidebar {
+        margin-bottom: -2000px;
+        padding-bottom: 2000px;
+        overflow: hidden;
+    }
+}
