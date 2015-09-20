@@ -10,6 +10,9 @@ body {
 h2 {
     margin-bottom: 20px;
 }
+.input-group-addon {
+    cursor: pointer;
+}
 .sidebar {
     background-color: #080808;
     text-align: center;
@@ -18,7 +21,7 @@ h2 {
     -moz-box-shadow:    4px 0 4px rgba(0, 0, 0, 0.4);  /* Firefox 3.5 - 3.6 */
     box-shadow:         4px 0 4px rgba(0, 0, 0, 0.4);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
-.photo {
+#photoholder {
     background-image: url("../images/kealan's_instagram_photo.jpg");
     padding-bottom: 52.5%;
     background-position: 50% 50%;
@@ -49,7 +52,6 @@ h2 {
     text-align: left;
 }
 .current-art {
-    max-width: 100px;
     max-width: 100px;
     border: 1px solid #e5e5e5;
 }
